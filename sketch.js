@@ -1,7 +1,13 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 600);
+  background(220);
+    strokeWeight(4);
 }
 
 function draw() {
-  background(220);
+if(mouseIsPressed==true){
+    line(width-mouseX, height-mouseY,width-pmouseX,height-pmouseY);
+    line(mouseX, mouseY,pmouseX,pmouseY);
+
+}
 }
