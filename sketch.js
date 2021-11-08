@@ -8,6 +8,11 @@ function draw() {
 if(mouseIsPressed==true){
     line(width-mouseX, height-mouseY,width-pmouseX,height-pmouseY);
     line(mouseX, mouseY,pmouseX,pmouseY);
-
 }
+}
+function keyTyped(){
+  if(key==='s'){
+    saveCanvas('zen','png')
+  }
+return false;
 }
