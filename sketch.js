@@ -3,21 +3,14 @@ let array = [];
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(240, 240, 228);
-  strokeWeight(4);
-  noFill();
+  strokeWeight(5);
 }
 
 function draw() {
-  if (mouseIsPressed) {
-    //line(width-mouseX, height-mouseY,width-pmouseX,height-pmouseY);
-    //line(mouseX, mouseY,pmouseX,pmouseY);
-    background(0);
-    text('Breathe in...and then out.', 600, 300);
-    text('Think not of its perfection.', 600, 350);
-    text('But the art process.',600,400)
-    fill(220);
-    array.push([mouseX, mouseY]);
-  }
+  background(240, 240, 228, 20);
+  stroke(map(mouseX, 0, 600, 0, 255, true));
+  line(width - mouseX, height - mouseY, width - pmouseX, height - pmouseY);
+  line(mouseX, mouseY, pmouseX, pmouseY);
 }
 
 function keyTyped() {
