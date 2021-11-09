@@ -15,4 +15,9 @@ h3{
 canvas {
   display: block;
   border: 7px solid black;
+  margin: auto;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index:-1;
 }

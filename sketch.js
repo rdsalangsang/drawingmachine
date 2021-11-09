@@ -1,7 +1,7 @@
 let array = [];
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   background(240, 240, 228);
   strokeWeight(4);
   noFill();
@@ -12,9 +12,9 @@ function draw() {
     //line(width-mouseX, height-mouseY,width-pmouseX,height-pmouseY);
     //line(mouseX, mouseY,pmouseX,pmouseY);
     background(0);
-    text('Breathe in...and then out.', 300, 300);
-    text('Think not of its perfection.', 300, 350);
-    text('But the art process.',300,400)
+    text('Breathe in...and then out.', 600, 300);
+    text('Think not of its perfection.', 600, 350);
+    text('But the art process.',600,400)
     fill(220);
     array.push([mouseX, mouseY]);
   }
