@@ -16,15 +16,18 @@ function draw() {
 function keyTyped() {
   if (key === 's') {
     saveCanvas('zen', 'png')
-  } else if (key === 'd') {
-    background(240, 240, 228);
-    noFill();
-    beginShape();
-    for (let i = 0; i < array.length; i++) {
-      //line(array[i][0],array[i][1],array[i+1][0],array[i+1][1]);
-      curveVertex(array[i][0], array[i][1])
-    }
-    endShape();
+  }//  else if (key === 'd') {
+  //   background(240, 240, 228);
+  //   noFill();
+  //   beginShape();
+  //   for (let i = 0; i < array.length; i++) {
+  //     //line(array[i][0],array[i][1],array[i+1][0],array[i+1][1]);
+  //     curveVertex(array[i][0], array[i][1])
+  //   }
+  //   endShape();
+  // }
+  else if(key==='e'){
+    clear();
   }
   return false;
 }
