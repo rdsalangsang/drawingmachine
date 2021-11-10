@@ -16,8 +16,6 @@ canvas {
   display: block;
   border: 7px solid black;
   margin: auto;
-  top: 0;
-  left: 0;
-  position: absolute;
+  position: relative;
   z-index:-1;
 }
