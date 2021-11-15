@@ -5,17 +5,27 @@ html, body {
 
 body{
   text-align: center;
+  background-image: linear-gradient(ghostwhite, paleturquoise);
 }
 h1{
   font-family:"Brush Script MT", cursive;
   }
 h3{
-  font-family: "Arial", sans-serif;
+  font-family: "Arial Narrow", sans-serif;
 }
 canvas {
   display: block;
+  background-color: ivory;
   border: 7px solid black;
   margin: auto;
   position: relative;
   z-index:-1;
+}
+.artstate{
+  max-width:500px;
+  text-align: center;
+  font-family: "Arial Narrow",sans-serif;
+  font-size: 15px;
+  position:relative;
+  left:380px;
 }
