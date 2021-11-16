@@ -8,11 +8,13 @@ body{
   background-image: linear-gradient(ghostwhite, paleturquoise);
 }
 h1{
+  font-size: 35px;
   font-family:"Brush Script MT", cursive;
   }
 h3{
   font-family: "Arial Narrow", sans-serif;
 }
+
 canvas {
   display: block;
   background-color: ivory;
@@ -21,11 +23,8 @@ canvas {
   position: relative;
   z-index:-1;
 }
-.artstate{
-  max-width:500px;
-  text-align: center;
-  font-family: "Arial Narrow",sans-serif;
-  font-size: 15px;
-  position:relative;
-  left:380px;
+p{
+  font-family: "Arial Narrow", sans-serif;
+  max-width: 500px;
+  margin:auto;
 }
