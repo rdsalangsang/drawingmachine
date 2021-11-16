@@ -5,7 +5,7 @@ html, body {
 
 body{
   text-align: center;
-  background-image: linear-gradient(ghostwhite, paleturquoise);
+  background-image: linear-gradient(ghostwhite, skyblue);
 }
 h1{
   font-size: 35px;
@@ -13,18 +13,27 @@ h1{
   }
 h3{
   font-family: "Arial Narrow", sans-serif;
+
 }
 
 canvas {
   display: block;
   background-color: ivory;
-  border: 7px solid black;
+  border: 5px solid black;
   margin: auto;
   position: relative;
-  z-index:-1;
+  bottom:320px;
+  z-index: -1;
 }
 p{
   font-family: "Arial Narrow", sans-serif;
   max-width: 500px;
   margin:auto;
+}
+.artstate{
+  font-family: "Arial Narrow", sans-serif;
+  max-width: 500px;
+  margin:auto;
+  position:relative;
+  top:655px;
 }
